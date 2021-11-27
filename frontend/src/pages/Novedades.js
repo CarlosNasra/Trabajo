@@ -1,3 +1,4 @@
+import '../styles/components/pages/Novedades.css';
 import React from 'react';
 const Novedades = (props) => {
     return (

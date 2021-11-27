@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
-//import './App.css';
+
+import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Nav from './components/layout/Nav';
@@ -22,10 +23,10 @@ function App() {
    <Header></Header>
    <Nav></Nav>
 <Routes>
-<Route path="/" exact component={<Home />} />
-<Route path="/nosotros" exact component={<Nosotros />} />
-<Route path="/novedades" exact component={<Novedades />} />
-<Route path="/contacto" exact component={<Contacto />} />
+<Route path="/" exact element={<Home />} />
+<Route path="/nosotros" exact element={<Nosotros />} />
+<Route path="/novedades" exact element={<Novedades />} />
+<Route path="/contacto" exact element={<Contacto />} />
 </Routes>
   
    <Footer></Footer>

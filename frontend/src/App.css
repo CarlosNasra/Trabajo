@@ -1,38 +1,88 @@
-.App {
+body{
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+h2{
+  color: rgb(96, 96, 185);
+  font-weight: 400;
+  margin: 0 0 1em;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.homeimg{
+  margin-bottom: 1.5em;
+  padding: 1em;
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homeimg img{
+  border-radius: 0.2em;
+  width: 50%;
 }
+.columnas{
+  overflow: hidden;
+}
+.bienvenidos, .testimonios{
+  box-sizing: border-box;
+}
+.bienvenidos{
+  width: 75%;
+  padding-right: 1em;
+}
+.testimonios{
+  width: 25%;
+}
+.testimonio{
+background: gainsboro;
+padding: 1em;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+.testimonio .cita{
+font-weight: bold;
+font-style: italic;
+font-size: 1.4em;
+display:block;
+
+}
+.testimonio .autor{
+  font-size: 0.7em;
+  text-align: center;
+  margin: 1em 0;
+  display: block;
+}
+.funcionamiento{
+  padding-top: 0em;
+  display: inline-block;
+  overflow: hidden;
+
+}
+.funcionamiento{
+  width: 20%;
+  /*border: 1px solid gray;
+  border-radius: 0.25em;*/
+  float: left;
+  margin-left: 2.25%;
+  box-sizing: border-box;
+ 
   }
+.funcionamiento h2{
+  color: rgb(96, 96, 185);
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.2em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.comienzo h2{
+  padding-top: 4em;
+  color: rgb(96, 96, 185);
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: 500;
+  padding-bottom: 1em;
 }
