@@ -1,17 +1,119 @@
 header{
-    background-color: rgb(96, 96, 185);
+    /*background-color: rgb(96, 96, 185);*/
+    /*background-color:rgb(245, 138, 206);*/
     padding: 1em 0;
+    margin-left:1%;
+    margin-right:1%;
     }
     header h1{
-    color: floralwhite;
-    font-size: 2.5em;
+    color: rgb(69, 60, 165);
+    /*font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;*/
+    font-family: 'Lobster', cursive;
+    font-size: 6em;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 200;
     display: inline-block;
     position: relative;
-    bottom: 15px;
-    }
+    bottom: 14px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+header img{
+margin-left: 30px;
+/*margin-top: 10px;*/
+margin-bottom: 5em;
+border-radius: 5px;
+}   
+header h3{
+        color: rgb(69, 60, 165);
+        font-size: 1em;
+        font-style: italic;
+        font-weight: 100;
+        display: inline-block;
+        position: relative;
+        bottom: 5px;
+
+        }
     nav{
-    background-color: rgb(179, 137, 179);
-    margin-bottom: 2em;
+    border-radius: 30px;
+        background-color: rgb(69, 60, 165);
+    /*background-color:rgb(245, 138, 206);*/
+    margin-bottom: 0,5em;
+   /*box-shadow: 0 0 3px;*/
+   padding: 10px;
+
     }
+    .botonera {
+        display: flex;
+        /*align-items: space-evenly;*/
+        justify-content: flex-end;
+        padding:10px;
+      
+
+        
+    }
+    .botonera button{
+        margin-right: 1%;
+        font-size: 0.7em;
+        margin-left: 1%;
+        text-decoration: none; /*decoración texto*/
+        text-transform: uppercase; /*capitalización texto*/
+        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+        border-radius: 50px; /*bordes redondos*/
+    }
+    .botonera nav{
+        padding-left:1%;
+        /*position: absolute;*/
+        
+        margin-right:auto;
+        box-shadow: 0;
+    }
+.offcanvas {
+    background-color: #84dded;
+    font-size: 1.3em;
+    width: 24%;
+    padding: 1em;
+}
+.offcanvas a {
+    color: rgb(69, 60, 165);
+    margin-bottom: 10px;
+    text-decoration: none;
+
+
+}
+
+
+@media screen and (max-width: 768px){
+    
+    .offcanvas {
+        
+        font-size: 1.3em;
+        width: 40%;
+       
+    }
+    .botonera button {
+        font-size: 0.6em;}
+
+header img{
+    /*margin-left: 30px;
+    /*margin-top: 10px;*/
+    margin-bottom: 5em;
+
+    }  
+}
+@media (max-width: 576px){
+    
+    
+    .offcanvas {
+        
+        font-size: 1.3em;
+        width: 50%;
+       
+    }
+}
+
+
+
+
+   

@@ -2,12 +2,25 @@
     width: 50%;
     box-sizing: border-box;
     padding: 0.6em;
+ background-color: rgb(236, 236, 241);
+ margin-bottom: 20px; 
 }
 .columna.left{
     border-right: 1px solid gray;
+    height: 20em;
+   padding-bottom: 20em;
+
+}
+.columna.right{
+    border-right: 1px solid gray;
+    height: 20em;
+    padding-bottom: 20em;
+ 
 }
 .columna.right p{
     font-size: 0.9em;
+  
+    
 }
 .columna.right ul li{
     font-size: 0.8em;
@@ -17,7 +30,7 @@
     width: 20%;
     display: inline-block;
 }
-.formulario input, .formulario textarea{
+.formulario input .formulario textarea{
     background-color: #ddd;
     border-radius: 5px;
     border: 1px solid #999;
@@ -26,7 +39,7 @@
     width: 90%;
 }
 .formulario input[type="submit"]{
-    background-color: #6da9ed;
+    background-color: #06355f;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     color: white;
     font-size: 1em;
@@ -35,9 +48,17 @@
 
 }
 .formulario textarea{
-    height: 10em;
-    resize: none;
+   height: 10em;
+   resize: none;
 }
 .formulario .acciones{
     text-align: center;
+   
+}
+@media screen and (max-width: 768px){
+    .columna{
+        width: 100%;
+        
+    }  
+       
 }
